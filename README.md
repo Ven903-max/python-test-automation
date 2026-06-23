@@ -30,7 +30,7 @@ pip install pyvisa pyvisa-py numpy
 python src/power_characterization.py
 
 Update the instrument addresses in config/bench_config.example.yaml to match 
-your bench setup.
+the bench setup.
 
 ## Note on simulation mode
 
