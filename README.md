@@ -7,7 +7,7 @@ using lab instruments over LAN.
 
 Manual bench testing is slow and inconsistent — setting voltages by hand, reading 
 DMM values, writing them down, repeating 50 times. This framework automates that 
-entire process. You define your test points, run the script, and get a timestamped 
+entire process. We can define our test points, run the script, and get a timestamped 
 CSV with pass/fail results.
 
 ## What it does
