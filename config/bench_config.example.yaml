@@ -1,0 +1,14 @@
+power_supply:
+  resource: "TCPIP::192.168.X.X::INSTR"
+  voltage_limit_v: 12.0
+  current_limit_a: 1.25
+
+electronic_load:
+  resource: "TCPIP::192.168.X.X::INSTR"
+  current_start_a: 0.1
+  current_stop_a: 1.0
+  current_steps: 10
+
+test:
+  settle_time_s: 1.0
+  minimum_efficiency_percent: 80.0
